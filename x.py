@@ -1,5 +1,5 @@
-def say_name(namx):
-    print(f"Hi there! {namx}. How are you today?")
+def say_name(x):
+    print(f"Hi there! {x}. How are you today?")
 
-nombre = input("Digit your name: ").capitalize()
+nombre = input("Digit name: ").capitalize()
 say_name(nombre)
